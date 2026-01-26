@@ -7,8 +7,7 @@ adescribe('On Linkedin', () => {
     cy.get('#username').type('@email.com');
     cy.get('#password').type('parola');
     cy.get('.btn__primary--large').click();
-    cy.wait(7000)
-
+    cy.wait(7000);
     cy.get('.profile-card-background-image').should('exist');
     
     })
