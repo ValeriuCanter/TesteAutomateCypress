@@ -1,10 +1,10 @@
-describe('On Linkedin', () => {
+adescribe('On Linkedin', () => {
  
     it ('I can login', () => {
     cy.visit('https://linkedin.com');
 
     cy.get('.nav__button-secondary').click();
-    cy.get('#username').type('nume@gmail.com');
+    cy.get('#username').type('@email.com');
     cy.get('#password').type('parola');
     cy.get('.btn__primary--large').click();
     cy.wait(7000)
