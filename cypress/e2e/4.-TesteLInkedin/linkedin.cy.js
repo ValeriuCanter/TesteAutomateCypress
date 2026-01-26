@@ -10,8 +10,6 @@ adescribe('On Linkedin', () => {
     cy.wait(7000)
 
     cy.get('.profile-card-background-image').should('exist');
-
-   // cy.get('#ember359').should('exist');
-     })
-
+    
+    })
 })
