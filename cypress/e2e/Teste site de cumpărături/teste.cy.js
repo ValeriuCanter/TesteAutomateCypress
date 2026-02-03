@@ -117,7 +117,7 @@ describe('Teste site de cumpărături', () =>{
     })
 
     //Testeza daca butonul “Back to products” de pe pagina unui produs te duce la
-    //pagina principala
+    //pagina principală
 
     it ('Testeză dacă butonul “Back to products” de pe pagina unui produs te duce la pagina principala', () => {
     cy.visit('https://www.saucedemo.com');
