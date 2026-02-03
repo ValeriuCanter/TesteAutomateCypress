@@ -104,7 +104,7 @@ describe('Teste site de cumpărături', () =>{
     })
 
     //Test prin care sa verifici daca poti accesa pagina cu detaliile unui produs (pagina
-    //care apare cand dai click pe un produs)
+    //care apare când dai click pe un produs)
 
     it ('Test prin care verifici dacă poți accesa pagina cu detaliile unui produs ', () => {
     cy.visit('https://www.saucedemo.com');
