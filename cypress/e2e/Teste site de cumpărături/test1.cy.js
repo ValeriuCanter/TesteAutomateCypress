@@ -20,6 +20,7 @@ describe('Teste site de cumpărături', () =>{
     cy.get('[data-test="username"]').type('standard_user');
     cy.get('[data-test="password"]').type('secret_sauce');
     cy.get('#login-button').click();
+    //cy.url().should('include', '/inventory.html') 
     cy.get('.app_logo').should('exist');
 
     })
@@ -96,6 +97,7 @@ describe('Teste site de cumpărături', () =>{
     cy.get('[data-test="postalCode"]').type('2071');
     cy.get('[data-test="continue"]').click();
     cy.get('[data-test="finish"]').click();
+    //cy.url().should('include', '/incheckout-complete.html') 
     cy.get('[data-test="checkout-complete-container"]').should('exist');
  
 
