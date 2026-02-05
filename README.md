@@ -55,7 +55,7 @@ The tests cover login, logout, navigation, cart functionality, checkout, and pro
 ## 📂 Project Structure
 
 ```
-shopping-site-tests/
+TesteAutomateCypress/
 │
 ├── cypress/
 │   ├── e2e/
